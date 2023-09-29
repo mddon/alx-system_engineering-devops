@@ -4,14 +4,13 @@
 # - Displays "Good luck" for the 8th iteration
 # - Displays "Best School" for all other iterations
 
-i=1
-
-while [ $i -le 10 ]
+i=0
+while [ $i -lt 10 ]
 do
-    if [ $i -eq 4 ]
+    if [ $i -eq 3 ]
     then
         echo "Bad luck"
-    elif [ $i -eq 8 ]
+    elif [ $i -eq 7 ]
     then 
         echo "Good luck"
     else
