@@ -4,17 +4,17 @@
 # - Displays "Good luck" for the 8th iteration
 # - Displays "Best School" for all other iterations
 
-i=0
-while [ $i -lt 10 ]
+counter=0
+while [ $counter -lt 10 ]
 do
-    if [ $i -eq 3 ]
+    if [ $counter -eq 3 ]
     then
         echo "Bad luck"
-    elif [ $i -eq 7 ]
+    elif [ $counter -eq 7 ]
     then 
         echo "Good luck"
     else
         echo "Best School"
     fi
-    ((i++))
+    ((counter++))
 done
