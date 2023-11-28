@@ -1,0 +1,1 @@
+Readme documenation on web_stac_debugging_0
