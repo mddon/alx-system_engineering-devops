@@ -2,8 +2,8 @@
 """
 Defines the number_of_subscribers function
 """
-
 import requests
+
 
 def number_of_subscribers(subreddit):
     """return the total number of subscribers on a given subreddit."""
